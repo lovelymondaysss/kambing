@@ -13,6 +13,10 @@ const config = {
     },
   },
   scene: [BunnyJumpScene],
+  scale: {
+    mode: Phaser.Scale.FIT,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+  },
 };
 
 export default new Phaser.Game(config);
