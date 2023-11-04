@@ -4,7 +4,7 @@ export default class BunnyJumpScene extends Phaser.Scene {
     super("bunny-jump-scene");
   }
   preload() {
-    this.load.image("background", "images/bg_layer1.png");
+    this.load.image("background", "images/carrot.png");
   }
   create() {
     this.add.image(240, 320, "background");
